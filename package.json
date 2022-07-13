@@ -3,6 +3,7 @@
   "displayName": "Sourscript",
   "description": "Sourscript language support",
   "version": "0.1.0",
+  "license": "cc-by-sa-4.0",
   "author": "NemoStein <contato@nemostein.com.br> (http://nemostein.com.br)",
   "repository": {
     "type": "git",
