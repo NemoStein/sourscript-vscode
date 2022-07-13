@@ -1,0 +1,39 @@
+{
+  "name": "sourscript",
+  "displayName": "Sourscript",
+  "description": "Sourscript language support",
+  "version": "0.1.0",
+  "author": "NemoStein <contato@nemostein.com.br> (http://nemostein.com.br)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NemoStein/sourscript-vscode.git"
+  },
+  "engines": {
+    "vscode": "^1.67.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "sourscript",
+        "aliases": [
+          "Sourscript",
+          "sourscript"
+        ],
+        "extensions": [
+          ".ss"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "sourscript",
+        "scopeName": "source.sourscript",
+        "path": "./syntaxes/sourscript.tmLanguage.json"
+      }
+    ]
+  }
+}
